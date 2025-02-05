@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Input/Puzzle*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Package Include="System.Text.RegularExpressions" />
+  </ItemGroup>
+</Project>
